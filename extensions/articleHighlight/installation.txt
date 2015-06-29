@@ -1,0 +1,10 @@
+To install the extension :
+1)add the following lines to LocalSettings.php:
+
+#Extension:Article Highlight
+require_once( "$IP/extensions/articleHighlight/articleHighlight.php" );
+
+2)Place the contents of this directory in "$IP/extensions/articleHighlight" (create if doesn't exists)
+
+3)run the script "$IP/maintenance/update.php" once.
+
