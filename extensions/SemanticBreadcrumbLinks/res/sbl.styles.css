@@ -1,0 +1,49 @@
+.sbl-breadcrumb-trail-boxed {
+	clear: both;
+	border:1px solid #AAAAAA;
+	background-color:#F9F9F9;
+	padding:5px;
+}
+
+.sbl-breadcrumb-trail-light {
+	color: #7D7D7D;
+	font-size: 84%;
+	line-height: 1.2em;
+	margin: 0 0 1.4em 0;
+	width: auto;
+}
+
+.sbl-breadcrumb-trail-light-boxed {
+	border: 1px solid rgb(238, 238, 238);
+	background: none repeat scroll 0 0 rgb(249, 249, 249);
+	color: rgb(119, 119, 119);
+	padding: 4px;
+	margin-bottom: 12px;
+}
+
+.sbl-breadcrumb-pipe-right:after, .sbl-breadcrumb-pipe-left:before  {
+	content: "|";
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 0.875em;
+}
+
+.sbl-breadcrumb-arrow-right {
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #AAAAAA;
+	display: inline-block;
+	position: relative;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.sbl-breadcrumb-arrow-left {
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid #AAAAAA;
+	display: inline-block;
+	position: relative;
+	margin-left: 4px;
+	margin-right: 4px;
+}

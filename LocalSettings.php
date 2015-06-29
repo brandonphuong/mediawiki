@@ -76,8 +76,8 @@ $wgMemCachedServers = array();
 ## To enable image uploads, make sure the 'images' directory
 ## is writable, then set this to true:
 $wgEnableUploads = true;
-#$wgUseImageMagick = true;
-#$wgImageMagickConvertCommand = "/usr/bin/convert";
+$wgUseImageMagick = true;
+$wgImageMagickConvertCommand = "/usr/bin/convert";
 
 # InstantCommons allows wiki to use images from http://commons.wikimedia.org
 $wgUseInstantCommons = true;
@@ -124,9 +124,24 @@ $wgGroupPermissions['*']['edit'] = false;
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'vector', 'monobook':
 $wgDefaultSkin = 'Vector';
-
 require_once "$IP/skins/Vector/Vector.php";
 
 # End of automatically generated settings.
 # Add more configuration options below.
-
+wfLoadExtension( 'Cite' );
+wfLoadExtension( 'CiteThisPage' );
+wfLoadExtension( 'Gadgets' );
+wfLoadExtension( 'ImageMap' );
+wfLoadExtension( 'InputBox' );
+wfLoadExtension( 'Interwiki' );
+wfLoadExtension( 'LocalisationUpdate' );
+wfLoadExtension( 'Nuke' );
+wfLoadExtension( 'ParserFunctions' );
+wfLoadExtension( 'PdfHandler' );
+wfLoadExtension( 'Poem' );
+wfLoadExtension( 'Renameuser' );
+wfLoadExtension( 'SpamBlacklist' );
+wfLoadExtension( 'SyntaxHighlight_GeSHi' );
+require_once( "$IP/extensions/SpamBlacklist/SpamBlacklist.php" );
+require_once( "$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php" );
+require_once "$IP/extensions/UniversalLanguageSelector/UniversalLanguageSelector.php";

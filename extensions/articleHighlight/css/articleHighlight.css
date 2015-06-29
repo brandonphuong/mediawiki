@@ -1,0 +1,32 @@
+.articleHighlight-category-hide{
+	cursor:pointer;
+}
+
+.articleHighlight-category-show{
+		background-image:url(../images/tick.png);
+		background-position:right;
+		background-repeat:no-repeat;	
+		cursor:pointer;
+}
+
+.articleHighlight-category-disable{
+	color:#CCC;
+	text-decoration:line-through;
+}
+
+.articleHighlight-showPalette-button{
+	font-size:8px;
+	cursor:pointer;	
+}
+
+.articleHighlight-colorPalette-color{
+	width:12px;
+	height:12px;
+	cursor:pointer;
+	float:left;
+	margin:3px;
+	border-style:solid;
+	border-width:thin;
+}
+
+
